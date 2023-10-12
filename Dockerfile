@@ -1,4 +1,4 @@
-FROM public.ecr.aws/docker/library/python:3.8.13-slim
+FROM public.ecr.aws/docker/library/python:3.8.18-alpine
 WORKDIR /usr/src/app
 EXPOSE 8080
 COPY . .
