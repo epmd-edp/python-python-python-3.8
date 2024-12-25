@@ -24,7 +24,7 @@ setup(
     cmdclass={'version': VersionCommand},
 
     setup_requires=['pytest-runner'],
-    tests_require=["pytest","requests"],
+    tests_require=["pytest","requests","urllib3==2.2.3"],
 
     install_requires=[
         "Click==8.1.7",
