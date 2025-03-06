@@ -29,7 +29,7 @@ setup(
     install_requires=[
         "Click==8.1.7",
         "Flask==3.0.3",
-        "Jinja2==3.1.5",
+        "Jinja2==3.1.6",
         "MarkupSafe==2.1.5",
         "Werkzeug==3.0.6",
         "markdown==3.7",
