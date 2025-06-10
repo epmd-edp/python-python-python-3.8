@@ -24,8 +24,13 @@ setup(
     cmdclass={'version': VersionCommand},
 
     setup_requires=['pytest-runner'],
-    tests_require=["pytest","requests","urllib3==2.2.3"],
-
+    tests_require=[
+        "pytest<=7.4.4",
+        "requests",
+        "urllib3==2.2.3",
+        "exceptiongroup<=1.1.3",
+        "typing-extensions<=4.5.0"
+    ],
     install_requires=[
         "Click==8.1.7",
         "Flask==3.0.3",
@@ -34,7 +39,6 @@ setup(
         "Werkzeug==3.0.6",
         "markdown==3.7",
         "blinker==1.6.2",
-        "pytest==8.0",
         "pluggy==1.3"
     ],
 )
