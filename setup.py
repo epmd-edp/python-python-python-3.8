@@ -27,7 +27,7 @@ setup(
     tests_require=[
         "pytest<=7.4.4",
         "requests",
-        "urllib3==2.2.3",
+        "urllib3==2.5.0",
         "exceptiongroup<=1.1.3",
         "typing-extensions<=4.5.0"
     ],
