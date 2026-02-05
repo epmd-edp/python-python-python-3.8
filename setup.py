@@ -36,7 +36,7 @@ setup(
         "Flask==3.0.3",
         "Jinja2==3.1.6",
         "MarkupSafe==2.1.5",
-        "Werkzeug==3.0.6",
+        "Werkzeug==3.1.5",
         "markdown==3.7",
         "blinker==1.6.2",
         "pluggy==1.3"
